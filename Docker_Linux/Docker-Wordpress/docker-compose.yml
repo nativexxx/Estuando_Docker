@@ -1,0 +1,37 @@
+services:
+  meu-blog:
+    image: wordpress:6.6.2-php8.1-apache
+    container_name: Wordpress
+    restart: always
+    environment:
+      - WORDPRESS_DB_HOST=db
+      - WORDPRESS_DB_USER=Yuri
+      - WORDPRESS_DB_PASSWORD=753159
+      - WORDPRESS_DB_NAME=wp-example
+    ports:
+      - 80:80
+    volumes:
+      - wordpress:/var/www/html
+    networks:
+      - meu-blog 
+  db:
+    image: mysql:9.0.1
+    container_name: mysql
+    restart: always
+    environment:
+      - MYSQL_DATABASE=wp-example
+      - MYSQL_USER=Yuri
+      - MYSQL_PASSWORD=753159
+      - MYSQL_ROOT_PASSWORD=753159
+    volumes:
+      - db:/var/lib/mysql
+    ports:
+      - 8080:8080 
+    networks:
+      - meu-blog
+networks:
+  meu-blog:
+    driver: bridge
+volumes:
+  wordpress:
+  db:
