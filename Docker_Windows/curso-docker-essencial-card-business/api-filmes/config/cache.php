@@ -6,12 +6,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Default Cache Store
+    | Armazenamento de cache padrão
     |--------------------------------------------------------------------------
     |
-    | This option controls the default cache store that will be used by the
-    | framework. This connection is utilized if another isn't explicitly
-    | specified when running a cache operation inside the application.
+    | Esta opção controla o armazenamento de cache padrão que será usado pelo
+    | estrutura. Esta conexão é usada se outra não for explicitamente
+    | especificado ao executar uma operação de cache dentro do aplicativo.
     |
     */
 
@@ -19,15 +19,15 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Cache Stores
+    | Cache Stores - Lojas de cache
     |--------------------------------------------------------------------------
     |
-    | Here you may define all of the cache "stores" for your application as
-    | well as their drivers. You may even define multiple stores for the
-    | same cache driver to group types of items stored in your caches.
+    | Aqui você pode definir todos os "armazenamentos" de cache para sua aplicação
+    | bem como seus motoristas. Você pode até definir múltiplas lojas para o
+    | mesmo driver de cache para agrupar tipos de itens armazenados em seus caches.
     |
-    | Supported drivers: "array", "database", "file", "memcached",
-    |                    "redis", "dynamodb", "octane", "null"
+    | Drivers suportados: "array", "database", "file", "memcached",
+    |                    "redis", "dynamodb", "octano", "nulo"
     |
     */
 
@@ -94,12 +94,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Cache Key Prefix
+    | Prefixo da chave de cache
     |--------------------------------------------------------------------------
     |
-    | When utilizing the APC, database, memcached, Redis, and DynamoDB cache
-    | stores, there might be other applications using the same cache. For
-    | that reason, you may prefix every cache key to avoid collisions.
+    | Ao utilizar o cache APC, banco de dados, memcached, Redis e DynamoDB
+    | lojas, pode haver outros aplicativos usando o mesmo cache. Para
+    | por esse motivo, você pode prefixar cada chave de cache para evitar colisões.
     |
     */
 

@@ -4,12 +4,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Default Queue Connection Name
+    | Default Queue Connection Name - Nome de conexão de fila padrão
     |--------------------------------------------------------------------------
     |
-    | Laravel's queue supports a variety of backends via a single, unified
-    | API, giving you convenient access to each backend using identical
-    | syntax for each. The default queue connection is defined below.
+    | A fila do Laravel suporta uma variedade de backends através de um único e unificado
+    | API, oferecendo acesso conveniente a cada back-end usando idêntico
+    | sintaxe para cada um. A conexão da fila padrão é definida abaixo.
     |
     */
 
@@ -17,12 +17,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Queue Connections
+    | Queue Connections - Conexões de fila
     |--------------------------------------------------------------------------
     |
-    | Here you may configure the connection options for every queue backend
-    | used by your application. An example configuration is provided for
-    | each backend supported by Laravel. You're also free to add more.
+    | Aqui você pode configurar as opções de conexão para cada backend de fila
+    | usado pela sua aplicação. Um exemplo de configuração é fornecido para
+    | cada backend suportado pelo Laravel. Você também está livre para adicionar mais.
     |
     | Drivers: "sync", "database", "beanstalkd", "sqs", "redis", "null"
     |
@@ -76,12 +76,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Job Batching
+    | Job Batching - Lote de trabalhos
     |--------------------------------------------------------------------------
     |
-    | The following options configure the database and table that store job
-    | batching information. These options can be updated to any database
-    | connection and table which has been defined by your application.
+    | As opções a seguir configuram o banco de dados e a tabela que armazenam tarefas
+    | informações de lote. Essas opções podem ser atualizadas para qualquer banco de dados
+    | conexão e tabela que foi definida pelo seu aplicativo.
     |
     */
 
@@ -92,12 +92,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Failed Queue Jobs
+    | Failed Queue Jobs - Trabalhos de fila com falha
     |--------------------------------------------------------------------------
     |
-    | These options configure the behavior of failed queue job logging so you
-    | can control how and where failed jobs are stored. Laravel ships with
-    | support for storing failed jobs in a simple file or in a database.
+    | Estas opções configuram o comportamento do registro de tarefas da fila com falha para que você
+    | pode controlar como e onde os trabalhos com falha são armazenados. Laravel vem com
+    | suporte para armazenar trabalhos com falha em um arquivo simples ou em um banco de dados.
     |
     | Supported drivers: "database-uuids", "dynamodb", "file", "null"
     |

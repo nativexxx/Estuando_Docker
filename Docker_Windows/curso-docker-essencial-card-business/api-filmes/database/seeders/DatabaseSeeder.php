@@ -9,7 +9,7 @@ use Illuminate\Database\Seeder;
 class DatabaseSeeder extends Seeder
 {
     /**
-     * Seed the application's database.
+     * Propague o banco de dados do aplicativo.
      */
     public function run(): void
     {
